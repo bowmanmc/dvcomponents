@@ -1,0 +1,12 @@
+@import './sass/colors';
+@import './sass/typography';
+
+@import '~normalize.css/normalize.css';
+
+
+html, body {
+    background: $color-primary;
+    font-family: $fontstack;
+    min-height: 100%;
+}
+

@@ -1,0 +1,36 @@
+@import './sass/colors';
+
+.SongLengths {
+    margin: 0.5em;
+    width: 100%;
+
+    rect {
+        fill: $color-gray-30;
+    }
+
+    text {
+        alignment-baseline: hanging;
+        fill: $color-gray-30;
+        font-size: 16px;
+    }
+
+    .time {
+        alignment-baseline: middle;
+        fill: $color-gray-90;
+        font-weight: 900;
+        text-anchor: end;
+    }
+
+    .highlight {
+        rect {
+            fill: $color-gray-20;
+        }
+        text {
+            fill: $color-gray-20;
+            font-weight: 900;
+        }
+        .time {
+            fill: $color-gray-95;
+        }
+    }
+}
