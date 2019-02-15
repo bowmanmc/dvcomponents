@@ -1,15 +1,30 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-hexmap',
-  templateUrl: './hexmap.component.html',
-  styleUrls: ['./hexmap.component.scss']
+    selector: 'app-hexmap',
+    templateUrl: './hexmap.component.html',
+    styleUrls: ['./hexmap.component.scss']
 })
 export class HexmapComponent implements OnInit {
 
-  constructor() { }
+    states = [
+        'AL', 'AR', 'CA', 'CT', 'DE',
+        'FL', 'HI', 'ID', 'IA', 'MA',
+        'MS', 'NV', 'NH', 'NJ', 'OK',
+        'PA', 'RI', 'SC', 'VA', 'WA',
+        'WV', 'WI'
+    ];
 
-  ngOnInit() {
-  }
+    constructor() {
+    }
 
+    ngOnInit() {
+    }
+
+    hasStandards(stateId) {
+        if (this.states.indexOf(stateId) >= 0) {
+            return true;
+        }
+        return false;
+    }
 }

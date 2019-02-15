@@ -1,213 +1,220 @@
 <svg xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.41421" clip-rule="evenodd" viewBox="0 0 1323 896">
-  <g id="Artboard1" transform="matrix(.8569 0 0 .7578 -370.197 -246.303)">
-    <path fill="none" d="M432.017 325.02h1543.69V1506.2H432.017z"/>
-    <g id="States" fill-rule="nonzero" transform="matrix(1.16699 0 0 1.31959 -250.224 -322.145)">
-      <path id="DE" fill="#70f5ae" d="M1678.42 906.519l54.14-31.26 54.15 31.26v62.518l-54.15 31.263-54.14-31.263v-62.518z"/>
-      <path id="DC" fill="#70f5a7" d="M1624.28 1000.3l54.14-31.263 54.14 31.263v62.52l-54.14 31.25-54.14-31.25v-62.52z"/>
-      <path id="FL" fill="#70f59f" d="M1407.71 1187.85l54.14-31.26 54.14 31.26v62.52l-54.14 31.26-54.14-31.26v-62.52z"/>
-      <path id="GA" fill="#70f598" d="M1461.85 1094.07l54.14-31.25 54.15 31.25v62.52l-54.15 31.26-54.14-31.26v-62.52z"/>
-      <path id="HI" fill="#70f58a" d="M812.139 1281.63l54.143-31.26 54.143 31.26v62.52l-54.143 31.26-54.143-31.26v-62.52z"/>
-      <path id="ID" fill="#70f583" d="M757.997 812.741l54.142-31.26 54.143 31.26v62.518l-54.143 31.26-54.142-31.26v-62.518z"/>
-      <path id="IL" fill="#70f57c" d="M1191.14 812.741l54.14-31.26 54.14 31.26v62.518l-54.14 31.26-54.14-31.26v-62.518z"/>
-      <path id="IN" fill="#70f575" d="M1299.42 812.741l54.15-31.26 54.14 31.26v62.518l-54.14 31.26-54.15-31.26v-62.518z"/>
-      <path id="IA" fill="#72f570" d="M1082.85 812.741l54.15-31.26 54.14 31.26v62.518l-54.14 31.26-54.15-31.26v-62.518z"/>
-      <path id="KS" fill="#79f570" d="M1082.85 1000.3l54.15-31.263 54.14 31.263v62.52l-54.14 31.25-54.15-31.25v-62.52z"/>
-      <path id="KY" fill="#81f570" d="M1245.28 906.519l54.14-31.26 54.15 31.26v62.518l-54.15 31.263-54.14-31.263v-62.518z"/>
-      <path id="LA" fill="#88f570" d="M1137 1094.07l54.14-31.25 54.14 31.25v62.52l-54.14 31.26-54.14-31.26v-62.52z"/>
-      <path id="ME" fill="#8ff570" d="M1786.71 531.407l54.14-31.259 54.14 31.259v62.519l-54.14 31.259-54.14-31.259v-62.519z"/>
-      <path id="MD" fill="#96f570" d="M1570.14 906.519l54.14-31.26 54.14 31.26v62.518l-54.14 31.263-54.14-31.263v-62.518z"/>
-      <path id="MA" fill="#9df570" d="M1678.42 718.963l54.14-31.259 54.15 31.259v62.518l-54.15 31.26-54.14-31.26v-62.518z"/>
-      <path id="MI" fill="#a4f570" d="M1353.57 718.963l54.14-31.259 54.14 31.259v62.518l-54.14 31.26-54.14-31.26v-62.518z"/>
-      <path id="MN" fill="#abf570" d="M1028.71 718.963l54.14-31.259 54.15 31.259v62.518l-54.15 31.26-54.14-31.26v-62.518z"/>
-      <path id="MS" fill="#b3f570" d="M1245.28 1094.07l54.14-31.25 54.15 31.25v62.52l-54.15 31.26-54.14-31.26v-62.52z"/>
-      <path id="MO" fill="#baf570" d="M1137 906.519l54.14-31.26 54.14 31.26v62.518l-54.14 31.263-54.14-31.263v-62.518z"/>
-      <path id="MT" fill="#c1f570" d="M812.139 718.963l54.143-31.259 54.143 31.259v62.518l-54.143 31.26-54.143-31.26v-62.518z"/>
-      <path id="NE" fill="#c8f570" d="M1028.71 906.519l54.14-31.26 54.15 31.26v62.518l-54.15 31.263-54.14-31.263v-62.518z"/>
-      <path id="NV" fill="#cff570" d="M812.139 906.519l54.143-31.26 54.143 31.26v62.518l-54.143 31.263-54.143-31.263v-62.518z"/>
-      <path id="NH" fill="#d6f570" d="M1732.56 625.185l54.15-31.259 54.14 31.259v62.519l-54.14 31.259-54.15-31.259v-62.519z"/>
-      <path id="NJ" fill="#ddf570" d="M1624.28 812.741l54.14-31.26 54.14 31.26v62.518l-54.14 31.26-54.14-31.26v-62.518z"/>
-      <path id="NM" fill="#e4f570" d="M974.567 1000.3l54.143-31.263 54.14 31.263v62.52l-54.14 31.25-54.143-31.25v-62.52z"/>
-      <path id="NY" fill="#ecf570" d="M1570.14 718.963l54.14-31.259 54.14 31.259v62.518l-54.14 31.26-54.14-31.26v-62.518z"/>
-      <path id="NC" fill="#f3f570" d="M1407.71 1000.3l54.14-31.263 54.14 31.263v62.52l-54.14 31.25-54.14-31.25v-62.52z"/>
-      <path id="ND" fill="#f5f070" d="M920.425 718.963l54.142-31.259 54.143 31.259v62.518l-54.143 31.26-54.142-31.26v-62.518z"/>
-      <path id="OH" fill="#f5e970" d="M1407.71 812.741l54.14-31.26 54.14 31.26v62.518l-54.14 31.26-54.14-31.26v-62.518z"/>
-      <path id="OK" fill="#f5e270" d="M1028.71 1094.07l54.14-31.25 54.15 31.25v62.52l-54.15 31.26-54.14-31.26v-62.52z"/>
-      <path id="OR" fill="#f5db70" d="M703.854 906.519l54.143-31.26 54.142 31.26v62.518l-54.142 31.263-54.143-31.263v-62.518z"/>
-      <path id="PA" fill="#f5d470" d="M1515.99 812.741l54.15-31.26 54.14 31.26v62.518l-54.14 31.26-54.15-31.26v-62.518z"/>
-      <path id="RI" fill="#f5c670" d="M1786.71 718.963l54.14-31.259 54.14 31.259v62.518l-54.14 31.26-54.14-31.26v-62.518z"/>
-      <path id="SC" fill="#f5be70" d="M1515.99 1000.3l54.15-31.263 54.14 31.263v62.52l-54.14 31.25-54.15-31.25v-62.52z"/>
-      <path id="SD" fill="#f5b770" d="M974.567 812.741l54.143-31.26 54.14 31.26v62.518l-54.14 31.26-54.143-31.26v-62.518z"/>
-      <path id="TN" fill="#f5b070" d="M1299.42 1000.3l54.15-31.263 54.14 31.263v62.52l-54.14 31.25-54.15-31.25v-62.52z"/>
-      <path id="TX" fill="#f5a970" d="M1082.85 1187.85l54.15-31.26 54.14 31.26v62.52l-54.14 31.26-54.15-31.26v-62.52z"/>
-      <path id="UT" fill="#f5a270" d="M866.282 1000.3l54.143-31.263 54.142 31.263v62.52l-54.142 31.25-54.143-31.25v-62.52z"/>
-      <path id="VT" fill="#f59b70" d="M1624.28 625.185l54.14-31.259 54.14 31.259v62.519l-54.14 31.259-54.14-31.259v-62.519z"/>
-      <path id="VA" fill="#f59470" d="M1461.85 906.519l54.14-31.26 54.15 31.26v62.518l-54.15 31.263-54.14-31.263v-62.518z"/>
-      <path id="WA" fill="#f58570" d="M703.854 718.963l54.143-31.259 54.142 31.259v62.518l-54.142 31.26-54.143-31.26v-62.518z"/>
-      <path id="WV" fill="#f57e70" d="M1353.57 906.519l54.14-31.26 54.14 31.26v62.518l-54.14 31.263-54.14-31.263v-62.518z"/>
-      <path id="WI" fill="#f57770" d="M1137 718.963l54.14-31.259 54.14 31.259v62.518l-54.14 31.26-54.14-31.26v-62.518z"/>
-      <path id="WY" fill="#70f5f5" d="M866.282 812.741l54.143-31.26 54.142 31.26v62.518l-54.142 31.26-54.143-31.26v-62.518z"/>
-      <path id="AK" fill="#70f5e7" d="M595.569 1281.63l54.143-31.26 54.142 31.26v62.52l-54.142 31.26-54.143-31.26v-62.52z"/>
-      <path id="CA" fill="#70f5ca" d="M757.997 1000.3l54.142-31.263 54.143 31.263v62.52l-54.143 31.25-54.142-31.25v-62.52z"/>
-      <path id="CO" fill="#70f5bc" d="M920.425 906.519l54.142-31.26 54.143 31.26v62.518l-54.143 31.263-54.142-31.263v-62.518z"/>
-      <path id="AZ" fill="#70f5d9" d="M920.425 1094.07l54.142-31.25 54.143 31.25v62.52l-54.143 31.26-54.142-31.26v-62.52z"/>
-      <path id="AR" fill="#70f5d1" d="M1191.14 1000.3l54.14-31.263 54.14 31.263v62.52l-54.14 31.25-54.14-31.25v-62.52z"/>
-      <path id="AL" fill="#70f5ee" d="M1353.57 1094.07l54.14-31.25 54.14 31.25v62.52l-54.14 31.26-54.14-31.26v-62.52z"/>
-      <path id="CT" fill="#70f5b5" d="M1732.56 812.741l54.15-31.26 54.14 31.26v62.518l-54.14 31.26-54.15-31.26v-62.518z"/>
-    </g>
-    <g id="Labels">
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -483.17971079 -341.45073366)">
-        CT
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -548.72720511 -216.87127682)">
-        DE
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -613.90593059 -93.12355755)">
-        DC
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -416.93318946 -464.36777102)">
-        RI
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -557.51463981 -464.36777102)">
-        MA
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -681.22141476 -464.36777102)">
-        NY
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -492.03716489 -588.11628204)">
-        NH
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -611.66530979 -588.11628204)">
-        V<tspan x="1992.75" y="869.31">T</tspan>
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -426.12323571 -711.86347347)">
-        ME
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -613.08320264 -341.0350628)">
-        NJ
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -740.67722128 -340.2037211)">
-        P<tspan x="1986.84" y="869.31">A</tspan>
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -870.79077133 -340.2037211)">
-        OH
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -989.12355733 -341.0350628)">
-        IN
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1109.85450778 -341.0350628)">
-        IL
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1241.21206917 -341.0350628)">
-        IA
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1181.40616565 -464.36777102)">
-        WI
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -927.51582125 -464.36777102)">
-        MI
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1371.13306587 -340.61939196)">
-        SD
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1505.3450848 -340.61939196)">
-        WY
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1619.3483379 -340.61939196)">
-        ID
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1695.2843772 -464.36777102)">
-        W<tspan x="2000.94" y="869.31">A</tspan>
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1563.7529343 -464.36777102)">
-        MT
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1439.5501886 -464.36777102)">
-        ND
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1316.36855915 -464.36777102)">
-        MN
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -682.91938521 -216.87127682)">
-        MD
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -804.14047146 -216.87127682)">
-        V<tspan x="1989.69" y="869.31">A</tspan>
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -934.08014 -216.87127682)">
-        WV
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1058.24204105 -216.87127682)">
-        KY
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1190.8412798 -216.87127682)">
-        MO
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1309.12155125 -216.87127682)">
-        NE
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.35634 -1437.3329076 -248.40485925)">
-        C<tspan x="1988.1" y="869.31">O</tspan>
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.35634 -1566.8104481 -248.40485925)">
-        NV
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.35634 -1691.339951 -248.40485925)">
-        OR
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -737.22876583 -93.12355755)">
-        SC
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -869.00527663 -93.12355755)">
-        N<tspan x="1995.39" y="869.31">C</tspan>
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -993.39474073 -93.12355755)">
-        TN
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1119.86728198 -93.12355755)">
-        AR
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1245.50075742 -93.12355755)">
-        KS
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1380.74322852 -93.12355755)">
-        NM
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1497.3045237 -93.5392284)">
-        UT
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1625.5100451 -93.12355755)">
-        C<tspan x="1988.31" y="869.31">A</tspan>
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -807.04627656 30.62495347)">
-        G<tspan x="1993.32" y="869.31">A</tspan>
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -926.88564665 30.62495347)">
-        AL
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1059.60741935 29.79361177)">
-        MS
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1181.68624325 30.62495347)">
-        L<tspan x="1984.65" y="869.31">A</tspan>
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1435.6641119 30.62495347)">
-        AZ
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1313.60279285 30.62495347)">
-        OK
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1243.27764147 154.37346449)">
-        TX
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -860.53292923 154.37346449)">
-        FL
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1556.4125672 278.12197551)">
-        HI
-      </text>
-      <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1.16699 0 0 1.31959 -1816.2545606 278.12197551)">
-        AK
-      </text>
-    </g>
+  <g id="States" fill-rule="nonzero" transform="translate(-584.615 -490.427)">
+    <path id="DE" fill="#70f5ae" d="M1678.42 906.519l54.14-31.26 54.15 31.26v62.518l-54.15 31.263-54.14-31.263v-62.518z"/>
+    <path id="DC" fill="#70f5a7" d="M1624.28 1000.3l54.14-31.263 54.14 31.263v62.52l-54.14 31.25-54.14-31.25v-62.52z"/>
+    <path id="FL" fill="#70f59f" d="M1407.71 1187.85l54.14-31.26 54.14 31.26v62.52l-54.14 31.26-54.14-31.26v-62.52z"/>
+    <path id="GA" fill="#70f598" d="M1461.85 1094.07l54.14-31.25 54.15 31.25v62.52l-54.15 31.26-54.14-31.26v-62.52z"/>
+    <path id="HI" fill="#70f58a" d="M812.139 1281.63l54.143-31.26 54.143 31.26v62.52l-54.143 31.26-54.143-31.26v-62.52z"/>
+    <path id="ID" fill="#70f583" d="M757.997 812.741l54.142-31.26 54.143 31.26v62.518l-54.143 31.26-54.142-31.26v-62.518z"/>
+    <path id="IL" fill="#70f57c" d="M1191.14 812.741l54.14-31.26 54.14 31.26v62.518l-54.14 31.26-54.14-31.26v-62.518z"/>
+    <path id="IN" fill="#70f575" d="M1299.42 812.741l54.15-31.26 54.14 31.26v62.518l-54.14 31.26-54.15-31.26v-62.518z"/>
+    <path id="IA" fill="#72f570" d="M1082.85 812.741l54.15-31.26 54.14 31.26v62.518l-54.14 31.26-54.15-31.26v-62.518z"/>
+    <path id="KS" fill="#79f570" d="M1082.85 1000.3l54.15-31.263 54.14 31.263v62.52l-54.14 31.25-54.15-31.25v-62.52z"/>
+    <path id="KY" fill="#81f570" d="M1245.28 906.519l54.14-31.26 54.15 31.26v62.518l-54.15 31.263-54.14-31.263v-62.518z"/>
+    <path id="LA" fill="#88f570" d="M1137 1094.07l54.14-31.25 54.14 31.25v62.52l-54.14 31.26-54.14-31.26v-62.52z"/>
+    <path id="ME" fill="#8ff570" d="M1786.71 531.407l54.14-31.259 54.14 31.259v62.519l-54.14 31.259-54.14-31.259v-62.519z"/>
+    <path id="MD" fill="#96f570" d="M1570.14 906.519l54.14-31.26 54.14 31.26v62.518l-54.14 31.263-54.14-31.263v-62.518z"/>
+    <path id="MA" fill="#9df570" d="M1678.42 718.963l54.14-31.259 54.15 31.259v62.518l-54.15 31.26-54.14-31.26v-62.518z"/>
+    <path id="MI" fill="#a4f570" d="M1353.57 718.963l54.14-31.259 54.14 31.259v62.518l-54.14 31.26-54.14-31.26v-62.518z"/>
+    <path id="MN" fill="#abf570" d="M1028.71 718.963l54.14-31.259 54.15 31.259v62.518l-54.15 31.26-54.14-31.26v-62.518z"/>
+    <path id="MS" fill="#b3f570" d="M1245.28 1094.07l54.14-31.25 54.15 31.25v62.52l-54.15 31.26-54.14-31.26v-62.52z"/>
+    <path id="MO" fill="#baf570" d="M1137 906.519l54.14-31.26 54.14 31.26v62.518l-54.14 31.263-54.14-31.263v-62.518z"/>
+    <path id="MT" fill="#c1f570" d="M812.139 718.963l54.143-31.259 54.143 31.259v62.518l-54.143 31.26-54.143-31.26v-62.518z"/>
+    <path id="NE" fill="#c8f570" d="M1028.71 906.519l54.14-31.26 54.15 31.26v62.518l-54.15 31.263-54.14-31.263v-62.518z"/>
+    <path id="NV" fill="#cff570" d="M812.139 906.519l54.143-31.26 54.143 31.26v62.518l-54.143 31.263-54.143-31.263v-62.518z"/>
+    <path id="NH" fill="#d6f570" d="M1732.56 625.185l54.15-31.259 54.14 31.259v62.519l-54.14 31.259-54.15-31.259v-62.519z"/>
+    <path id="NJ" fill="#ddf570" d="M1624.28 812.741l54.14-31.26 54.14 31.26v62.518l-54.14 31.26-54.14-31.26v-62.518z"/>
+    <path id="NM" fill="#e4f570" d="M974.567 1000.3l54.143-31.263 54.14 31.263v62.52l-54.14 31.25-54.143-31.25v-62.52z"/>
+    <path id="NY" fill="#ecf570" d="M1570.14 718.963l54.14-31.259 54.14 31.259v62.518l-54.14 31.26-54.14-31.26v-62.518z"/>
+    <path id="NC" fill="#f3f570" d="M1407.71 1000.3l54.14-31.263 54.14 31.263v62.52l-54.14 31.25-54.14-31.25v-62.52z"/>
+    <path id="ND" fill="#f5f070" d="M920.425 718.963l54.142-31.259 54.143 31.259v62.518l-54.143 31.26-54.142-31.26v-62.518z"/>
+    <path id="OH" fill="#f5e970" d="M1407.71 812.741l54.14-31.26 54.14 31.26v62.518l-54.14 31.26-54.14-31.26v-62.518z"/>
+    <path id="OK" fill="#f5e270" d="M1028.71 1094.07l54.14-31.25 54.15 31.25v62.52l-54.15 31.26-54.14-31.26v-62.52z"/>
+    <path id="OR" fill="#f5db70" d="M703.854 906.519l54.143-31.26 54.142 31.26v62.518l-54.142 31.263-54.143-31.263v-62.518z"/>
+    <path id="PA" fill="#f5d470" d="M1515.99 812.741l54.15-31.26 54.14 31.26v62.518l-54.14 31.26-54.15-31.26v-62.518z"/>
+    <path id="RI" fill="#f5c670" d="M1786.71 718.963l54.14-31.259 54.14 31.259v62.518l-54.14 31.26-54.14-31.26v-62.518z"/>
+    <path id="SC" fill="#f5be70" d="M1515.99 1000.3l54.15-31.263 54.14 31.263v62.52l-54.14 31.25-54.15-31.25v-62.52z"/>
+    <path id="SD" fill="#f5b770" d="M974.567 812.741l54.143-31.26 54.14 31.26v62.518l-54.14 31.26-54.143-31.26v-62.518z"/>
+    <path id="TN" fill="#f5b070" d="M1299.42 1000.3l54.15-31.263 54.14 31.263v62.52l-54.14 31.25-54.15-31.25v-62.52z"/>
+    <path id="TX" fill="#f5a970" d="M1082.85 1187.85l54.15-31.26 54.14 31.26v62.52l-54.14 31.26-54.15-31.26v-62.52z"/>
+    <path id="UT" fill="#f5a270" d="M866.282 1000.3l54.143-31.263 54.142 31.263v62.52l-54.142 31.25-54.143-31.25v-62.52z"/>
+    <path id="VT" fill="#f59b70" d="M1624.28 625.185l54.14-31.259 54.14 31.259v62.519l-54.14 31.259-54.14-31.259v-62.519z"/>
+    <path id="VA" fill="#f59470" d="M1461.85 906.519l54.14-31.26 54.15 31.26v62.518l-54.15 31.263-54.14-31.263v-62.518z"/>
+    <path id="WA" fill="#f58570" d="M703.854 718.963l54.143-31.259 54.142 31.259v62.518l-54.142 31.26-54.143-31.26v-62.518z"/>
+    <path id="WV" fill="#f57e70" d="M1353.57 906.519l54.14-31.26 54.14 31.26v62.518l-54.14 31.263-54.14-31.263v-62.518z"/>
+    <path id="WI" fill="#f57770" d="M1137 718.963l54.14-31.259 54.14 31.259v62.518l-54.14 31.26-54.14-31.26v-62.518z"/>
+    <path id="WY" fill="#70f5f5" d="M866.282 812.741l54.143-31.26 54.142 31.26v62.518l-54.142 31.26-54.143-31.26v-62.518z"/>
+    <path id="AK" fill="#70f5e7" d="M595.569 1281.63l54.143-31.26 54.142 31.26v62.52l-54.142 31.26-54.143-31.26v-62.52z"/>
+    <path id="CA" fill="#70f5ca" d="M757.997 1000.3l54.142-31.263 54.143 31.263v62.52l-54.143 31.25-54.142-31.25v-62.52z"/>
+    <path id="CO" fill="#70f5bc" d="M920.425 906.519l54.142-31.26 54.143 31.26v62.518l-54.143 31.263-54.142-31.263v-62.518z"/>
+    <path id="AZ" fill="#70f5d9" d="M920.425 1094.07l54.142-31.25 54.143 31.25v62.52l-54.143 31.26-54.142-31.26v-62.52z"/>
+    <path id="AR" fill="#70f5d1" d="M1191.14 1000.3l54.14-31.263 54.14 31.263v62.52l-54.14 31.25-54.14-31.25v-62.52z"/>
+    <path id="AL" fill="#70f5ee" d="M1353.57 1094.07l54.14-31.25 54.14 31.25v62.52l-54.14 31.26-54.14-31.26v-62.52z"/>
+    <path id="CT" fill="#70f5b5" d="M1732.56 812.741l54.15-31.26 54.14 31.26v62.518l-54.14 31.26-54.15-31.26v-62.518z"/>
+  </g>
+  <g id="Labels">
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-784.236 -505.0571)">
+      CT
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-840.404 -410.6494)">
+      DE
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-896.256 -316.872)">
+      DC
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-727.469 -598.205)">
+      RI
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-847.934 -598.205)">
+      MA
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-953.939 -598.205)">
+      NY
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-791.826 -691.983)">
+      NH
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-894.336 -691.983)">
+      V<tspan x="1992.75" y="869.31">T</tspan>
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-735.344 -785.76)">
+      ME
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-895.551 -504.7421)">
+      NJ
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1004.887 -504.1121)">
+      P<tspan x="1986.84" y="869.31">A</tspan>
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1116.382 -504.1121)">
+      OH
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1217.782 -504.7421)">
+      IN
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1321.237 -504.7421)">
+      IL
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1433.798 -504.7421)">
+      IA
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1382.55 -598.205)">
+      WI
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1164.99 -598.205)">
+      MI
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1545.128 -504.4271)">
+      SD
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1660.135 -504.4271)">
+      WY
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1757.825 -504.4271)">
+      ID
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1822.895 -598.205)">
+      W<tspan x="2000.94" y="869.31">A</tspan>
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1710.185 -598.205)">
+      MT
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1603.755 -598.205)">
+      ND
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1498.2 -598.205)">
+      MN
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-955.394 -410.6494)">
+      MD
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1059.269 -410.6494)">
+      V<tspan x="1989.69" y="869.31">A</tspan>
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1170.615 -410.6494)">
+      WV
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1277.01 -410.6494)">
+      KY
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1390.635 -410.6494)">
+      MO
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1491.99 -410.6494)">
+      NE
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1 0 0 1.02785 -1601.855 -434.5459)">
+      C<tspan x="1988.1" y="869.31">O</tspan>
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1 0 0 1.02785 -1712.805 -434.5459)">
+      NV
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1 0 0 1.02785 -1819.515 -434.5459)">
+      OR
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1001.932 -316.872)">
+      SC
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1114.852 -316.872)">
+      N<tspan x="1995.39" y="869.31">C</tspan>
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1221.442 -316.872)">
+      TN
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1329.817 -316.872)">
+      AR
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1437.473 -316.872)">
+      KS
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1553.363 -316.872)">
+      NM
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1653.245 -317.187)">
+      UT
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1763.105 -316.872)">
+      C<tspan x="1988.31" y="869.31">A</tspan>
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1061.759 -223.094)">
+      G<tspan x="1993.32" y="869.31">A</tspan>
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1164.45 -223.094)">
+      AL
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1278.18 -223.724)">
+      MS
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1382.79 -223.094)">
+      L<tspan x="1984.65" y="869.31">A</tspan>
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1600.425 -223.094)">
+      AZ
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1495.83 -223.094)">
+      OK
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1435.568 -129.316)">
+      TX
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1107.592 -129.316)">
+      FL
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1703.895 -35.538)">
+      HI
+    </text>
+    <text x="1967.76" y="869.31" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="translate(-1926.555 -35.538)">
+      AK
+    </text>
+  </g>
+  <g id="Legend">
+    <path fill="#70f59f" d="M981.484 801.26h44.654v44.654h-44.654z" transform="matrix(.76141 0 0 .76142 327.63997938 181.68181717)"/>
+    <text x="1047.75" y="822.35" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1 0 0 1 78.22235484 -2.55343256)">
+      Y<tspan x="1067.01 1086.42" y="822.35 822.35">es</tspan>
+    </text>
+    <path fill="#70f5ee" d="M981.484 801.26h44.654v44.654h-44.654z" transform="matrix(.76141 0 0 .76142 327.63997938 231.681989)"/>
+    <text x="1047.75" y="822.35" font-family="'Futura-Bold','Futura',sans-serif" font-size="30" font-weight="700" transform="matrix(1 0 0 1 79.69194692 47.44673928)">
+      N<tspan x="1075.32" y="822.35">o</tspan>
+    </text>
   </g>
 </svg>

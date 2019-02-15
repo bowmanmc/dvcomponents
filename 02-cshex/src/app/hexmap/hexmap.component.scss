@@ -1,6 +1,40 @@
+@import '../sass/_colors.scss';
+@import '../sass/_typography.scss';
+
+
+.hexmap {
+    width: 100%;
+}
 
 text {
-  font-family: 'Futura-Bold','Futura',sans-serif;
-  font-size: 30px;
-  font-weight: 700
+    fill: $color-white;
+    font-family: $fontstack-bold;
+    font-size: $fontsize-lg;
+}
+
+.Legend {
+
+    path {
+        fill: $color-gray-40;
+    }
+
+    text {
+        fill: $color-gray-40;
+    }
+
+    .highlight {
+        fill: $color-primary;
+    }
+}
+
+.States {
+    path {
+        fill: $color-gray-40;
+        stroke: $color-gray-95;
+        stroke-width: 3.5px;
+    }
+
+    .highlight {
+        fill: $color-primary;
+    }
 }
