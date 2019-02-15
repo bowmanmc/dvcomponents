@@ -1,1 +1,8 @@
+@import './sass/_colors.scss';
+@import './sass/_typography.scss';
 
+
+.attribution {
+    color: $color-gray-50;
+    font-size: $fontsize-sm;
+}
