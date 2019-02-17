@@ -4,18 +4,8 @@
 @import '~normalize.css/normalize.css';
 
 
-html, body {
-    height: 100%;
-    min-height: 100%;
-}
-
-html {
-    background: $color-primary;
-}
-
 body {
-    background: $color-bg;
-    background-image: radial-gradient($color-bg-lt 5%, $color-bg-dk 80%);
+    background: $color-bg radial-gradient($color-bg-lt 5%, $color-bg-dk 80%) top center no-repeat;
     font-family: $fontstack;
 }
 
@@ -25,4 +15,15 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.CityCards {
+    align-items: stretch;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5em;
+
+    .CityCard {
+        margin: 0 0.5em 0.5em 0;
+    }
 }

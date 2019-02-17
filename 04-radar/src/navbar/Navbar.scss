@@ -15,7 +15,7 @@ $logo-size: 48px;
     width: 100%;
 
     .Logo {
-        fill: $color-primary;
+        fill: darken($color-primary, 10%);
         height: $logo-size;
         width: $logo-size;
     }

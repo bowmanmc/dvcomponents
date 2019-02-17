@@ -81,5 +81,4 @@ export default [{
     }, {
         month: 'dec', high: 46, low: 36, precip: 5.31, days_precip: 17
     }]
-}, {
 }];

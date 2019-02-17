@@ -1,0 +1,20 @@
+@import './sass/colors';
+@import './sass/typography';
+
+$chartsize: 256px;
+.CityCard {
+    background: rgba($color-white, 0.03);
+    border-radius: 3px;
+    padding: 1.0em;
+
+    h2 {
+        color: $color-white;
+        font-size: $fontsize-lg;
+        text-align: center;
+    }
+
+    .RadarChart {
+        height: $chartsize;
+        width: $chartsize;
+    }
+}

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
+import CityCard from './CityCard';
 import Navbar from './navbar';
-import RadarChart from './RadarChart';
 import WeatherData from './data/weather';
 
 import './App.scss';
@@ -11,12 +11,15 @@ class App extends Component {
 
     render() {
 
-        const city = WeatherData[0];
+        let charts = [];
+        WeatherData.forEach(city => {
+            charts.push(<CityCard key={city.city} city={city} />);
+        });
 
         return (
             <div className="App">
                 <Navbar />
-                <RadarChart data={city} />
+                <div className="CityCards">{charts}</div>
             </div>
         );
     }

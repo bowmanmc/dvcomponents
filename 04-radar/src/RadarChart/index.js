@@ -18,7 +18,7 @@ const RadarChart = (props) => {
         <svg className="RadarChart" viewBox={`0 0 ${Config.width} ${Config.height}`}>
             <g className="chart"
                transform-origin="center center"
-               transform="scale(0.8)">
+               transform="scale(1)">
                 <BowmanBelt />
                 <MonthlyAxis />
                 <PrecipitationBars data={data.monthly} />

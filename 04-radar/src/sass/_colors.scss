@@ -26,4 +26,4 @@ $color-blue: #4A83DC;
 
 $color-bg: mix($color-blue, $color-gray-10, 2%);
 $color-bg-dk: $color-bg;
-$color-bg-lt: mix($color-primary, lighten($color-bg-dk, 7%), 2%);
+$color-bg-lt: mix($color-primary, lighten($color-bg-dk, 12%), 2%);
