@@ -3,7 +3,7 @@ import React from 'react';
 import Config from './Config';
 
 
-// Temperature Band
+// Math goes here!
 const calculatePoint = (Config, val, i) => {
     const radius = Config.width / 2;
 
@@ -18,6 +18,7 @@ const calculatePoint = (Config, val, i) => {
     return `${ptX},${ptY}`;
 };
 
+// Temperature Band component --> polygon donut
 const TemperatureBand = (props) => {
     const { data } = props;
     if (!data) {
