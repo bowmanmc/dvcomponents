@@ -1,6 +1,8 @@
 import React from 'react';
 
+import { calculatePoint } from './utils';
 import Config from './Config';
+
 
 // Draws the monthly axis lines for the radar chart
 const MonthlyAxis = () => {
@@ -12,13 +14,11 @@ const MonthlyAxis = () => {
 
     let lines = [];
     for (let i = 0; i < numMonths; i++) {
+        const pt = calculatePoint(Config, Config.maxValue, i);
         lines.push(
             <line key={i} className="Axis"
-                x1={ centerX }
-                y1={ centerY }
-                x2={ centerX * (1 - 1 * Math.sin(i * Config.radians / numMonths))}
-                y2={ centerX * (1 - 1 * Math.cos(i * Config.radians / numMonths))}
-            />
+                x1={centerX} y1={centerY}
+                x2={pt[0]} y2={pt[1]} />
         );
     }
 

@@ -3,6 +3,7 @@ import React from 'react';
 import BowmanBelt from './BowmanBelt';
 import Config from './Config';
 import MonthlyAxis from './MonthlyAxis';
+import PrecipitationBars from './PrecipitationBars';
 import TemperatureBand from './TemperatureBand';
 
 import './RadarChart.scss';
@@ -17,6 +18,7 @@ const RadarChart = (props) => {
             <BowmanBelt />
             <MonthlyAxis />
             <TemperatureBand data={data.monthly} />
+            <PrecipitationBars data={data.monthly} />
         </svg>
     );
 };

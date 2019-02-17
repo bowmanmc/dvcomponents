@@ -1,22 +1,8 @@
 import React from 'react';
 
+import { calculatePointString } from './utils';
 import Config from './Config';
 
-
-// Math goes here!
-const calculatePoint = (Config, val, i) => {
-    const radius = Config.width / 2;
-
-    const ptX = radius * (
-        1 - (Math.max(val, 0) / Config.maxValue)
-        * 1 * Math.sin(i * Config.radians / 12)
-    );
-    const ptY = radius * (
-        1 - (Math.max(val, 0) / Config.maxValue)
-        * 1 * Math.cos(i * Config.radians / 12)
-    );
-    return `${ptX},${ptY}`;
-};
 
 // Temperature Band component --> polygon donut
 const TemperatureBand = (props) => {
@@ -29,8 +15,8 @@ const TemperatureBand = (props) => {
     let ptsLow = [];
     for (let i = 0; i < data.length; i++) {
         const month = data[i];
-        ptsHigh.push(calculatePoint(Config, month.high, i));
-        ptsLow.push(calculatePoint(Config, month.low, i));
+        ptsHigh.push(calculatePointString(Config, month.high, i));
+        ptsLow.push(calculatePointString(Config, month.low, i));
     }
 
     const pointsHigh = ptsHigh.join(' ');
