@@ -1,0 +1,17 @@
+@import '../sass/colors';
+@import '../sass/typography';
+
+$lineWidth: 0.25px;
+
+.RadarChart {
+    border: 1px solid red;
+    height: 256px;
+    width: 256px;
+}
+
+.MonthlyAxis {
+    line {
+        stroke: $color-gray-50;
+        stroke-width: $lineWidth;
+    }
+}
