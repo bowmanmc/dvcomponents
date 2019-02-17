@@ -1,0 +1,29 @@
+@import '../sass/colors';
+@import '../sass/typography';
+
+
+$logo-size: 48px;
+.Navbar {
+    align-items: center;
+    background: $color-bg;
+    border-bottom: 1px solid $color-primary;
+    box-shadow: 0 0 1.0em $color-black;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.0em;
+    padding: 0.5em 1.0em;
+    width: 100%;
+
+    .Logo {
+        fill: $color-primary;
+        height: $logo-size;
+        width: $logo-size;
+    }
+
+    span {
+        color: $color-gray-40;
+        flex: 1;
+        font-size: $fontsize-sm;
+        padding: 0 1.0em;
+    }
+}

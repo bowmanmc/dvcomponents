@@ -20,8 +20,10 @@ $color-gray-10: #171717;
 $color-black: #000000;
 
 // UI colors
-$color-bg: $color-gray-15;
 $color-primary: #EDA94F;
 $color-green: #78AE3F;
 $color-blue: #4A83DC;
 
+$color-bg: mix($color-blue, $color-gray-10, 2%);
+$color-bg-dk: $color-bg;
+$color-bg-lt: mix($color-primary, lighten($color-bg-dk, 7%), 2%);

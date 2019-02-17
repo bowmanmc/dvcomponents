@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+import Navbar from './navbar';
 import RadarChart from './RadarChart';
 import WeatherData from './data/weather';
 
@@ -14,6 +15,7 @@ class App extends Component {
 
         return (
             <div className="App">
+                <Navbar />
                 <RadarChart data={city} />
             </div>
         );
