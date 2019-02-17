@@ -10,19 +10,32 @@ $lineWidth: 0.25px;
 
 .MonthlyAxis {
     line {
-        stroke: $color-gray-30;
+        stroke: $color-gray-25;
         stroke-width: $lineWidth;
+    }
+}
+
+.TempMarkers {
+    circle {
+        fill: none;
+        stroke: $color-gray-25;
+        stroke-width: $lineWidth;
+    }
+    text {
+        dominant-baseline: middle;
+        fill: $color-gray-40;
+        font-size: 3px;
+        text-anchor: middle;
     }
 }
 
 .BowmanBelt {
     .belt {
-        fill: rgba($color-green, 0.15);
+        fill: rgba($color-green, 0.05);
     }
 }
 
 .TemperatureBand {
-
     .band {
         fill: rgba($color-primary, 0.65);
     }
@@ -38,9 +51,9 @@ $lineWidth: 0.25px;
 
 .Labels {
     text {
-        //dominant-baseline: middle;
         fill: $color-gray-50;
-        font-size: 5px;
+        font-size: 3.5px;
+        font-weight: $fontweight-light;
         text-anchor: middle;
     }
 }

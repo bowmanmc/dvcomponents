@@ -1,9 +1,13 @@
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,900');
 
 $fontstack: 'Roboto', sans-serif;
 
 $fontsize-lg: 24px;
 $fontsize-md: 16px;
 $fontsize-sm: 12px;
+
+$fontweight-light: 300;
+$fontweight-normal: 500;
+$fontweight-bold: 900;
 
