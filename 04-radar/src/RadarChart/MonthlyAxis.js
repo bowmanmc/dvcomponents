@@ -3,7 +3,7 @@ import React from 'react';
 import Config from './Config';
 
 // Draws the monthly axis lines for the radar chart
-const MonthlyAxis = (props) => {
+const MonthlyAxis = () => {
 
     const centerX = Config.width / 2;
     const centerY = Config.height / 2;
