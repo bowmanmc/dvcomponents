@@ -11,7 +11,20 @@ $lineWidth: 0.25px;
 
 .MonthlyAxis {
     line {
-        stroke: $color-gray-50;
+        stroke: $color-gray-30;
         stroke-width: $lineWidth;
+    }
+}
+
+.BowmanBelt {
+    .belt {
+        fill: rgba($color-green, 0.15);
+    }
+}
+
+.TemperatureBand {
+
+    .band {
+        fill: rgba($color-primary, 0.5);
     }
 }
