@@ -14,9 +14,6 @@ import './RadarChart.scss';
 const RadarChart = (props) => {
     const { data } = props;
 
-    //
-    //<PrecipitationBars data={data.monthly} />
-
     return (
         <svg className="RadarChart" viewBox={`0 0 ${Config.width} ${Config.height}`}>
             <g className="chart"
@@ -24,6 +21,7 @@ const RadarChart = (props) => {
                transform="scale(0.9)">
                 <BowmanBelt />
                 <MonthlyAxis />
+                <PrecipitationBars data={data.monthly} />
                 <TempMarkers />
                 <TemperatureBand data={data.monthly} />
             </g>

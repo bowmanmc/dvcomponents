@@ -56,9 +56,9 @@ $lineWidth: 0.25px;
 
 .PrecipitationBars {
     line {
-        stroke: $color-blue;
-        stroke-linecap: butt;
-        stroke-width: 2px;
+        stroke: rgba($color-blue, 0.35);
+        stroke-linecap: round;
+        stroke-width: 1.5px;
     }
 }
 
