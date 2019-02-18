@@ -16,16 +16,16 @@ const RadarChart = (props) => {
 
     //
     //<PrecipitationBars data={data.monthly} />
-    //<TemperatureBand data={data.monthly} />
+
     return (
         <svg className="RadarChart" viewBox={`0 0 ${Config.width} ${Config.height}`}>
             <g className="chart"
                transform-origin="center center"
                transform="scale(0.9)">
-
+                <BowmanBelt />
                 <MonthlyAxis />
                 <TempMarkers />
-                <BowmanBelt />
+                <TemperatureBand data={data.monthly} />
             </g>
             <Labels />
         </svg>

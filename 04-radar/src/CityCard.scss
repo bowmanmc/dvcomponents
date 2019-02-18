@@ -3,7 +3,7 @@
 
 $chartsize: 256px;
 .CityCard {
-    background: rgba($color-white, 0.03);
+    background: rgba($color-white, 0.035);
     border-radius: 5px;
     padding: 1.0em;
 
@@ -12,6 +12,7 @@ $chartsize: 256px;
         font-size: $fontsize-lg;
         font-weight: $fontweight-bold;
         letter-spacing: 0.1em;
+        margin: 0;
         text-align: center;
         text-transform: uppercase;
     }

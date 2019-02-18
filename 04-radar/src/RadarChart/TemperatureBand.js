@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { calculatePointString } from './utils';
+import { calculatePoint } from './utils';
 import Config from './Config';
 
 
@@ -13,10 +13,25 @@ const TemperatureBand = (props) => {
 
     let ptsHigh = [];
     let ptsLow = [];
+    let circlesHigh = [];
+    let circlesLow = [];
     for (let i = 0; i < data.length; i++) {
         const month = data[i];
-        ptsHigh.push(calculatePointString(Config, month.high, i));
-        ptsLow.push(calculatePointString(Config, month.low, i));
+        const highPt = calculatePoint(Config, month.high, i);
+        const lowPt = calculatePoint(Config, month.low, i);
+        ptsHigh.push(`${highPt[0]},${highPt[1]}`);
+        ptsLow.push(`${lowPt[0]},${lowPt[1]}`);
+
+        circlesHigh.push(
+            <circle key={`hipt${i}`} className="highPt"
+                cx={highPt[0]} cy={highPt[1]} r={0.65}
+                filter="url(#glow)" />
+        );
+        circlesLow.push(
+            <circle key={`lopt${i}`} className="lowPt"
+                cx={lowPt[0]} cy={lowPt[1]} r={0.65}
+                filter="url(#glow)" />
+        );
     }
 
     const pointsHigh = ptsHigh.join(' ');
@@ -24,14 +39,22 @@ const TemperatureBand = (props) => {
     return (
         <g className="TemperatureBand">
             <defs>
-                <mask id="TemperatureBand__Mask">
-                    <rect width="100%" height="100%" fill="white" />
-                    <polygon fill="black" points={pointsLow} />
-                </mask>
+                <filter id="glow">
+                    <feGaussianBlur stdDeviation={1.35} />
+                    <feMerge>
+                        <feMergeNode />
+                        <feMergeNode in="SourceGraphic" />
+                    </feMerge>
+                </filter>
             </defs>
-            <polygon className="band"
-                 points={pointsHigh}
-                 mask="url(#TemperatureBand__Mask)" />
+            <polygon className="high"
+                points={pointsHigh}
+                filter="url(#glow)" />
+            <polygon className="low"
+                points={pointsLow}
+                filter="url(#glow)" />
+            { circlesHigh }
+            { circlesLow }
         </g>
     );
 };

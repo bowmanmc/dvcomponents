@@ -31,13 +31,26 @@ $lineWidth: 0.25px;
 
 .BowmanBelt {
     .belt {
-        fill: rgba($color-green, 0.05);
+        fill: rgba($color-green, 0.085);
     }
 }
 
 .TemperatureBand {
-    .band {
-        fill: rgba($color-primary, 0.65);
+    .high {
+        fill: none;
+        stroke: $color-primary;
+        stroke-width: $lineWidth;
+    }
+    .highPt {
+        fill: lighten($color-primary, 12%);
+    }
+    .low {
+        fill: none;
+        stroke: $color-blue;
+        stroke-width: $lineWidth;
+    }
+    .lowPt {
+        fill: lighten($color-blue, 12%);
     }
 }
 

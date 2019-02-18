@@ -12,8 +12,3 @@ export const calculatePoint = (Config, val, i) => {
     );
     return [ptX, ptY];
 };
-
-export const calculatePointString = (Config, val, i) => {
-    const pt = calculatePoint(Config, val, i);
-    return `${pt[0]},${pt[1]}`;
-};
