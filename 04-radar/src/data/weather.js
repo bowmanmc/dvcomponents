@@ -2,6 +2,8 @@
 
 export default [{
     city: 'Dayton',
+    avg: 51.95,
+    precip: 41.09,
     monthly: [{
         month: 'jan', high: 35, low: 20, precip: 2.83
     }, {
@@ -29,6 +31,8 @@ export default [{
     }]
 }, {
     city: 'Santa Barbara',
+    avg: 61.7,
+    precip: 19.41,
     monthly: [{
         month: 'jan', high: 65, low: 46, precip: 4.37
     }, {
@@ -56,6 +60,8 @@ export default [{
     }]
 }, {
     city: 'Seattle',
+    avg: 52.65,
+    precip: 37.13,
     monthly: [{
         month: 'jan', high: 47, low: 37, precip: 5.55
     }, {
@@ -83,6 +89,8 @@ export default [{
     }]
 }, {
     city: 'Honolulu',
+    avg: 77.6,
+    precip: 17.13,
     monthly: [{
         month: 'jan', high: 80, low: 66, precip: 2.32
     }, {
@@ -110,6 +118,8 @@ export default [{
     }]
 }, {
     city: 'Austin',
+    avg: 69.4,
+    precip: 34.25,
     monthly: [{
         month: 'jan', high: 62, low: 42, precip: 2.20
     }, {
@@ -137,6 +147,8 @@ export default [{
     }]
 }, {
     city: 'Miami',
+    avg: 77.05,
+    precip: 61.93,
     monthly: [{
         month: 'jan', high: 76, low: 60, precip: 1.61
     }, {

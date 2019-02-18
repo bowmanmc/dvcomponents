@@ -3,20 +3,32 @@
 
 $chartsize: 256px;
 .CityCard {
+    align-items: center;
     background: rgba($color-white, 0.035);
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 1.0em;
 
     h2 {
-        color: $color-white;
+        color: $color-gray-90;
         font-size: $fontsize-lg;
         font-weight: $fontweight-bold;
         letter-spacing: 0.1em;
-        margin: 0;
+        margin: 0 0 0.35em 0;
         text-align: center;
+        text-shadow: 2px 2px 0 $color-bg-dk;
         text-transform: uppercase;
     }
 
+    h3 {
+        color: $color-gray-80;
+        font-size: $fontsize-sm;
+        margin: 0 0 0.35em 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
     .RadarChart {
         height: $chartsize;
         width: $chartsize;

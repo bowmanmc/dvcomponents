@@ -13,7 +13,7 @@ const BowmanBelt = () => {
     const scale = scaleLinear().domain([0, Config.maxValue]).range([0, halfWidth]);
 
     const idealTemp = 70;
-    const deviation = 10;
+    const deviation = 5;
     const idealMin = scale(idealTemp - deviation);
     const idealMax = scale(idealTemp + deviation);
 
