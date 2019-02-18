@@ -174,4 +174,62 @@ export default [{
     }, {
         month: 'dec', high: 78, low: 63, precip: 2.05
     }]
+}, {
+    city: 'Raleigh',
+    avg: 60.8,
+    precip: 46.58,
+    monthly: [{
+        month: 'jan', high: 51, low: 32, precip: 4.45
+    }, {
+        month: 'feb', high: 56, low: 34, precip: 3.58
+    }, {
+        month: 'mar', high: 64, low: 41, precip: 4.45
+    }, {
+        month: 'apr', high: 73, low: 48, precip: 2.99
+    }, {
+        month: 'may', high: 79, low: 57, precip: 3.94
+    }, {
+        month: 'jun', high: 86, low: 65, precip: 4.06
+    }, {
+        month: 'jul', high: 89, low: 69, precip: 4.49
+    }, {
+        month: 'aug', high: 87, low: 68, precip: 4.21
+    }, {
+        month: 'sep', high: 82, low: 62, precip: 4.41
+    }, {
+        month: 'oct', high: 72, low: 50, precip: 3.58
+    }, {
+        month: 'nov', high: 63, low: 42, precip: 3.19
+    }, {
+        month: 'dec', high: 54, low: 35, precip: 3.23
+    }]
+}, {
+    city: 'Las Vegas',
+    avg: 69.3,
+    precip: 4.17,
+    monthly: [{
+        month: 'jan', high: 58, low: 39, precip: 0.55
+    }, {
+        month: 'feb', high: 62, low: 43, precip: 0.75
+    }, {
+        month: 'mar', high: 70, low: 49, precip: 0.43
+    }, {
+        month: 'apr', high: 78, low: 56, precip: 0.16
+    }, {
+        month: 'may', high: 89, low: 66, precip: 0.12
+    }, {
+        month: 'jun', high: 99, low: 75, precip: 0.08
+    }, {
+        month: 'jul', high: 104, low: 81, precip: 0.39
+    }, {
+        month: 'aug', high: 102, low: 79, precip: 0.31
+    }, {
+        month: 'sep', high: 94, low: 71, precip: 0.24
+    }, {
+        month: 'oct', high: 81, low: 58, precip: 0.28
+    }, {
+        month: 'nov', high: 66, low: 47, precip: 0.35
+    }, {
+        month: 'dec', high: 57, low: 39, precip: 0.51
+    }]
 }];

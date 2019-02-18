@@ -4,7 +4,7 @@ import { calculatePoint } from './utils';
 import Config from './Config';
 
 
-// Temperature Band component --> polygon donut
+// Temperature Band component --> avg hi and low
 const TemperatureBand = (props) => {
     const { data } = props;
     if (!data) {
