@@ -1,27 +1,36 @@
 <template>
-    <div id="app">
-        <HelloWorld msg="Welcome to Your Vue.js App"/>
-    </div>
+<div id="app">
+    <Choropleth />
+</div>
 </template>
 
 <script>
-    import HelloWorld from './components/HelloWorld.vue'
+import Choropleth from './components/Choropleth.vue';
 
-    export default {
-        name: 'app',
-        components: {
-            HelloWorld
-        }
+export default {
+    name: 'app',
+    components: {
+        Choropleth
     }
+}
 </script>
 
 <style lang="scss">
-    #app {
-        font-family: 'Avenir', Helvetica, Arial, sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        text-align: center;
-        color: #2c3e50;
-        margin-top: 60px;
-    }
+@import './sass/colors';
+@import './sass/typography';
+
+@import '~normalize.css/normalize';
+
+body, html, #app {
+    height: 100%;
+    min-height: 100%;
+}
+
+#app {
+    background: $color-red;
+    color: $color-light;
+    font-family: $fontstack;
+    padding: 1.0em;
+    text-align: center;
+}
 </style>
