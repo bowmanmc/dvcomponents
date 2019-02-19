@@ -1,6 +1,14 @@
 <template>
 <svg class="Choropleth" :viewBox="viewBox">
-    <path class="State" :d="statePath" />
+    <g class="State">
+        <path class="State" :d="computePath(this.state)" />
+    </g>
+    <g class="Counties">
+        <path v-for="feature in countyFeatures"
+              :id="`county-${feature.properties['FIPS_CODE']}`"
+              :d="computePath(feature)"
+              :key="`county-${feature.properties['FIPS_CODE']}`"/>
+    </g>
 </svg>
 </template>
 
@@ -23,26 +31,41 @@ export default {
         viewBox() {
             return `0 0 ${this.width} ${this.height}`;
         },
-        statePath() {
-            console.log('Calculating state path...');
-            if (!this.state) {
-                console.log('    state is null...');
-                return;
+        countyFeatures() {
+            if (!this.counties) {
+                return [];
             }
+            return this.counties.features;
+        },
+        pathGenerator() {
+            if (!this.state) {
+                return null;
+            }
+
             const projection = geoConicConformal();
             const pathGenerator = geoPath().projection(projection);
             const centroid = geoCentroid(this.state.features[0]);
             const r = [centroid[0] * -1, centroid[1] * -1];
             projection.scale(1).translate([0, 0]).rotate(r);
 
-            const b = pathGenerator.bounds(this.state),
-                  s = 0.98 / Math.max((b[1][0] - b[0][0]) / this.width, (b[1][1] - b[0][1]) / this.height),
-                  t = [(this.width - s * (b[1][0] + b[0][0])) / 2, (this.height - s * (b[1][1] + b[0][1])) / 2];
+            const b = pathGenerator.bounds(this.state);
+            // eslint-disable-next-line
+            const s = 0.98 / Math.max((b[1][0] - b[0][0]) / this.width, (b[1][1] - b[0][1]) / this.height);
+            // eslint-disable-next-line
+            const t = [(this.width - s * (b[1][0] + b[0][0])) / 2, (this.height - s * (b[1][1] + b[0][1])) / 2];
             projection.scale(s).translate(t);
 
-            return pathGenerator(this.state);
-        }
-    }
+            return pathGenerator;
+        },
+    },
+    methods: {
+        computePath(feature) {
+            if (!this.pathGenerator) {
+                return null;
+            }
+            return this.pathGenerator(feature);
+        },
+    },
 };
 </script>
 
@@ -50,8 +73,11 @@ export default {
 @import '../sass/colors';
 
 .Choropleth {
-    .State {
-        fill: $color-red;
+    .State, .Counties {
+        //fill: $color-red;
+        fill: none;
+        stroke: $color-red;
+        stroke-width: 2px;
     }
 }
 </style>
