@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vue/eslint-config-airbnb": "^4.0.0",
+    "d3-geo": "^1.11.3",
     "normalize.css": "^8.0.1",
     "vue": "^2.5.22"
   },
