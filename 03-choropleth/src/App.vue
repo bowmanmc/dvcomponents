@@ -1,8 +1,18 @@
 <template>
 <div id="app">
-    <Choropleth v-bind:state="state"
-                v-bind:counties="counties"
-                v-bind:data="data" />
+    <div class="explanation">
+        <h1>Ohio Choropleth</h1>
+        <h2>2017 County Unemployment Rates</h2>
+        <p>
+            This data was downloaded from the Bureau of Labor Statistics
+            website <a href="https://www.bls.gov">www.bls.gov</a>.
+        </p>
+    </div>
+    <div class="map">
+        <Choropleth v-bind:state="state"
+                    v-bind:counties="counties"
+                    v-bind:data="data" />
+    </div>
 </div>
 </template>
 
@@ -54,8 +64,39 @@ body, html, #app {
 #app {
     background: $color-bg;
     color: $color-txt;
-    font-family: $fontstack;
+    display: flex;
+    font-family: $fontstack-body;
     padding: 1.0em;
-    text-align: center;
+
+    .explanation {
+        width: 512px;
+
+        h1, h2 {
+            color: $color-heading;
+            font-family: $fontstack-heading;
+        }
+
+        h1 {
+            font-size: $fontsize-lg;
+        }
+
+        h2 {
+            font-size: $fontsize-md;
+        }
+
+        p {
+            color: $color-txt;
+            font-family: $fontstack-body;
+        }
+
+        a {
+            color: $color-blue;
+        }
+    }
+
+    .map {
+        flex: 1;
+        max-width: 768px;
+    }
 }
 </style>

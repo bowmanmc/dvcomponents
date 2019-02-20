@@ -1,9 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-$fontstack: 'Righteous', sans-serif;
+$fontstack-heading: 'Righteous', sans-serif;
+$fontstack-body: 'Open Sans', sans-serif;
 
-$fontsize-lg: 24px;
+$fontsize-lg: 32px;
 $fontsize-md: 16px;
 $fontsize-sm: 12px;
 

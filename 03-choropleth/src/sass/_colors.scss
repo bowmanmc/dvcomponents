@@ -27,4 +27,5 @@ $color-light: #FEF6D3;
 $color-blue: #429DD9;
 
 $color-bg: $color-light;
-$color-txt: darken($color-blue, 15%);
+$color-heading: darken($color-blue, 30%);
+$color-txt: $color-gray-20;
