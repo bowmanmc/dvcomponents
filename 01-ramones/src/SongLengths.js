@@ -27,7 +27,8 @@ const SongLengths = (props) => {
             highlight = true;
         }
         songs.push(
-            <SongLength data={datum}
+            <SongLength key={datum.Track}
+                        data={datum}
                         startY={height}
                         width={barWidth}
                         highlight={highlight} />

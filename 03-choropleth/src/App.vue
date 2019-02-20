@@ -65,12 +65,11 @@ body, html, #app {
     background: $color-bg;
     color: $color-txt;
     display: flex;
+    flex-direction: column;
     font-family: $fontstack-body;
     padding: 1.0em;
 
     .explanation {
-        width: 512px;
-
         h1, h2 {
             color: $color-heading;
             font-family: $fontstack-heading;

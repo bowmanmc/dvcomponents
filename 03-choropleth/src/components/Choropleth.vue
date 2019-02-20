@@ -62,7 +62,7 @@ export default {
             if (!this.data) {
                 return null;
             }
-            const rateExtent = this.ohioData.rateExtent;
+            const { rateExtent } = this.ohioData;
             return scaleLinear().domain(rateExtent).range([0, 1]);
         },
         pathGenerator() {
@@ -99,7 +99,6 @@ export default {
 
             const countyData = this.ohioData[fips];
             const color = interpolateYlOrRd(this.rateScale(countyData.Rate));
-            //console.log(`${countyData.County} - ${countyData.Rate} - ${color}`);
             return color;
         },
     },
