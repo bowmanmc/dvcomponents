@@ -1,0 +1,26 @@
+{
+  "name": "dvworkflows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all -p start:01 start:02 start:03 start:04",
+    "start:01": "cd 01-ramones && npm start",
+    "start:02": "cd 02-cshex && npm start",
+    "start:03": "cd 03-choropleth && npm run serve",
+    "start:04": "cd 04-radar && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bowmanmc/dvworkflows.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bowmanmc/dvworkflows/issues"
+  },
+  "homepage": "https://github.com/bowmanmc/dvworkflows#readme",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
