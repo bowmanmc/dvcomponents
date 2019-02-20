@@ -1,19 +1,23 @@
 <template>
 <svg class="Choropleth" :viewBox="viewBox">
-    <g class="State">
-        <path class="State" :d="computePath(this.state)" />
-    </g>
     <g class="Counties">
         <path v-for="feature in countyFeatures"
+              :fill="getFillColor(feature.properties['FIPS_CODE'])"
               :id="`county-${feature.properties['FIPS_CODE']}`"
               :d="computePath(feature)"
               :key="`county-${feature.properties['FIPS_CODE']}`"/>
+    </g>
+    <g class="State">
+        <path class="State" :d="computePath(this.state)" />
     </g>
 </svg>
 </template>
 
 <script>
+import { extent } from 'd3-array';
 import { geoCentroid, geoConicConformal, geoPath } from 'd3-geo';
+import { scaleLinear } from 'd3-scale';
+import { interpolateYlOrRd } from 'd3-scale-chromatic';
 
 export default {
     name: 'Choropleth',
@@ -26,6 +30,7 @@ export default {
     props: [
         'state',
         'counties',
+        'data',
     ],
     computed: {
         viewBox() {
@@ -37,11 +42,33 @@ export default {
             }
             return this.counties.features;
         },
+        ohioData() {
+            // Filter this.data for Ohio data and key by county fips code
+            const OHIO = '39';
+            if (!this.data) {
+                return {};
+            }
+            const results = {};
+            this.data.forEach((county) => {
+                if (county.State === OHIO) {
+                    results[county.County] = county;
+                }
+            });
+            // Stick the data extent(min/max rate) on there
+            results.rateExtent = extent(Object.keys(results), d => Number(results[d].Rate));
+            return results;
+        },
+        rateScale() {
+            if (!this.data) {
+                return null;
+            }
+            const rateExtent = this.ohioData.rateExtent;
+            return scaleLinear().domain(rateExtent).range([0, 1]);
+        },
         pathGenerator() {
             if (!this.state) {
                 return null;
             }
-
             const projection = geoConicConformal();
             const pathGenerator = geoPath().projection(projection);
             const centroid = geoCentroid(this.state.features[0]);
@@ -65,6 +92,16 @@ export default {
             }
             return this.pathGenerator(feature);
         },
+        getFillColor(fips) {
+            if (!this.ohioData) {
+                return 'none';
+            }
+
+            const countyData = this.ohioData[fips];
+            const color = interpolateYlOrRd(this.rateScale(countyData.Rate));
+            //console.log(`${countyData.County} - ${countyData.Rate} - ${color}`);
+            return color;
+        },
     },
 };
 </script>
@@ -73,11 +110,15 @@ export default {
 @import '../sass/colors';
 
 .Choropleth {
-    .State, .Counties {
-        //fill: $color-red;
+    .State {
         fill: none;
         stroke: $color-red;
         stroke-width: 2px;
+    }
+    .Counties {
+        fill: none;
+        stroke: $color-red;
+        stroke-width: 1px;
     }
 }
 </style>

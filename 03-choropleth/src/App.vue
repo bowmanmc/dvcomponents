@@ -1,6 +1,8 @@
 <template>
 <div id="app">
-    <Choropleth v-bind:state="state" v-bind:counties="counties" />
+    <Choropleth v-bind:state="state"
+                v-bind:counties="counties"
+                v-bind:data="data" />
 </div>
 </template>
 
@@ -20,6 +22,7 @@ export default {
         return {
             state: null,
             counties: null,
+            data: null,
         };
     },
 
@@ -29,6 +32,9 @@ export default {
         });
         DataApi.getState().then((state) => {
             this.state = state;
+        });
+        DataApi.getUnemploymentData().then((data) => {
+            this.data = data;
         });
     },
 };
