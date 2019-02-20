@@ -98,6 +98,7 @@ export default {
             }
 
             const countyData = this.ohioData[fips];
+            // https://github.com/d3/d3-scale-chromatic
             const color = interpolateYlOrRd(this.rateScale(countyData.Rate));
             return color;
         },
